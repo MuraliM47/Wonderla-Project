@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-13T13:36:41 IST" name="Default suite" finished-at="2026-10-13T13:37:26 IST" duration-ms="44064">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Reruner@6c4906d3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-10-13T13:36:41 IST" name="Default test" finished-at="2026-10-13T13:37:26 IST" duration-ms="44064">
+      <class name="org.runner.Reruner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.runner.Reruner@6c4906d3]" started-at="2026-10-13T13:36:42 IST" name="setUpClass" finished-at="2026-10-13T13:36:42 IST" duration-ms="918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a8ab2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.Reruner@6c4906d3]" started-at="2026-10-13T13:36:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-13T13:37:25 IST" duration-ms="42947" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User have to check all segement functionality as Invalid User details of ticket booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User have to check the ticket booking functionality of Wonderla application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [MuraliM] but found [Mu@iu2e02]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [MuraliM] but found [Mu@iu2e02]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at org.step.StepDefinition.userHaveToFillTheInvalidUserAndDetailsToBookTicket(StepDefinition.java:87)
+at ✽.User have to fill the Invalid User "Mu@iu2e02" and "890770@---" details to book ticket(file:///C:/Users/mahek/eclipse-workspace/.metadata/SampleWonderla/src/test/resources/Feature/TicketBooking.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.runner.Reruner@6c4906d3]" started-at="2026-10-13T13:37:25 IST" name="tearDownClass" finished-at="2026-10-13T13:37:26 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.runner.Reruner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
