@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(features="C:\\Users\\mahek\\eclipse-workspace\\.metadata\\SampleWonderla\\src\\test\\resources\\Feature",
-glue="org.step",monochrome=true,dryRun=false,snippets=SnippetType.CAMELCASE,tags="@smoke and @invalid",plugin={"pretty",
+glue="org.step",monochrome=true,dryRun=false,snippets=SnippetType.CAMELCASE,tags="@smoke and @valid",plugin={"pretty",
 "html:C:\\Users\\mahek\\eclipse-workspace\\.metadata\\SampleWonderla\\Reports\\Html\\Wonderla.html",
 "junit:C:\\Users\\mahek\\eclipse-workspace\\.metadata\\SampleWonderla\\Reports\\Junit\\wonderla.xml",
 "json:C:\\Users\\mahek\\eclipse-workspace\\.metadata\\SampleWonderla\\Reports\\Json\\wonderla.json",

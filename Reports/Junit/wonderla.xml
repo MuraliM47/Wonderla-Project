@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="43.126" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-10-13T08:06:42.791641500Z">
-<testcase classname="User have to check the ticket booking functionality of Wonderla application" name="User have to check all segement functionality as Invalid User details of ticket booking - #1.2" time="42.803">
-<failure type="java.lang.AssertionError" message="expected [MuraliM] but found [Mu@iu2e02]">
-<![CDATA[java.lang.AssertionError: expected [MuraliM] but found [Mu@iu2e02]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at org.step.StepDefinition.userHaveToFillTheInvalidUserAndDetailsToBookTicket(StepDefinition.java:87)
-	at ✽.User have to fill the Invalid User "Mu@iu2e02" and "890770@---" details to book ticket(file:///C:/Users/mahek/eclipse-workspace/.metadata/SampleWonderla/src/test/resources/Feature/TicketBooking.feature:15)
-]]>
-</failure>
+<testsuite name="Cucumber" time="61.475" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-16T07:47:04.001934300Z">
+<testcase classname="User have to check the ticket booking functionality of Wonderla application" name="User have to check all segement functionality of ticket booking" time="60.843">
 <system-out><![CDATA[
 Given User have to check the ticket booking functionality through chrome browser.passed
 When User have to check the standard ticket booking functionality of wonderla application.passed
-And User have to fill the Invalid User "Mu@iu2e02" and "890770@---" details to book ticket.failed
-Then User have to close the browser.........................................skipped
+And User have to fill the User required details to book ticket..............passed
+Then User have to close the browser.........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

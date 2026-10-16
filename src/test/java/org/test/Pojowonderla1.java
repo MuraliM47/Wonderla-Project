@@ -19,7 +19,7 @@ public class Pojowonderla1 extends BaseClass {
 		@FindBy(xpath="//span[text()='Standard Tickets']//parent::h2[@class='flex items-center gap-1 text-[20px] font-[800]']")
 		WebElement Standard_Tickets;
 	
-		@FindBy(xpath="//span[text()='16']//parent::div[@class='flex h-full w-full flex-col items-center justify-center rounded-[8px] text-[12px] text-black-300 transition-colors lg:rounded-[12px] lg:text-[16px]']")
+		@FindBy(xpath="//span[text()='28']//parent::div[@class='flex h-full w-full flex-col items-center justify-center rounded-[8px] text-[12px] text-black-300 transition-colors lg:rounded-[12px] lg:text-[16px]']")
 		WebElement selectDate;
 		
 		@FindBy(xpath="//button[text()='Proceed']//parent::div[@class='fixed bottom-0 left-0 w-full max-w-[100%] bg-white p-2.5 lg:relative lg:bottom-0 lg:flex lg:max-w-[min(100vw-32px,577px)] lg:items-center lg:p-0 lg:pt-3']")

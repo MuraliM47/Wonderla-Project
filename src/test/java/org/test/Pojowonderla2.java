@@ -19,7 +19,7 @@ public class Pojowonderla2 extends BaseClass{
 			@FindBy(xpath="(//div[@class='flex items-center justify-between px-3 py-1'])[2]")
 			WebElement offerticket;
 			
-			@FindBy(xpath="//span[text()='Birthday Offer - Paid']//parent::h3//parent::div//parent::div//following-sibling::div//child::button")
+			@FindBy(xpath="//span[text()='Birthday BOGO - Paid Ticket']//parent::h3//parent::div//parent::div//following-sibling::div//child::button")
 			WebElement BirthdayOffer;
 			@FindBy(xpath="(//button[text()='ADD'])[8]")
 			WebElement CollegeIdOffer;
