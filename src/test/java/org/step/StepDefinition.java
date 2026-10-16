@@ -50,10 +50,11 @@ public class StepDefinition extends BaseClass {
 		offer.click();
 		Thread.sleep(5000);
 		p2.getBirthdayOffer().click();
-		driver.findElement(By.xpath("(//button[@tabindex='0'])[26]")).click();
+		driver.findElement(By.xpath("//button[@class='flex items-center justify-center origin-center transition-transform duration-200 ease-out hover:scale-105 active:scale-[0.925] absolute right-5 top-2.5 size-8 rounded-full border-[1.56px] border-[#dedede] md:top-8']")).click();
 		WebElement defence = p2.getDefenceOffer();
 		js.executeScript("arguments[0].scrollIntoView()",defence);
 		defence.click();
+		driver.findElement(By.xpath("//button[@class='flex items-center justify-center origin-center transition-transform duration-200 ease-out hover:scale-105 active:scale-[0.925] absolute right-5 top-2.5 size-8 rounded-full border-[1.56px] border-[#dedede] md:top-8']")).click();
 		Thread.sleep(5000);
 		WebElement fasttrack= p2.getFasttrackticket();
 		js.executeScript("arguments[0].scrollIntoView()",fasttrack);
